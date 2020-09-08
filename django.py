@@ -11,7 +11,7 @@ lista_panificação = {"pão", "bolo", "pizza"}
 frutas = []
 verduras = []
 panificação = []
-
+congelados = []
 
 #verificando em qual tipo categoria está o item 
 if item in lista_verduras:

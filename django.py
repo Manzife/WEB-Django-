@@ -69,3 +69,6 @@ corrigir(resposta,verduras,frutas,panificação)
 
 def test (new):
     print(new)
+
+if __name__ == __main__:
+    test("testing")

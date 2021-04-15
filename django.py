@@ -66,3 +66,6 @@ def corrigir(r = resposta, v = verduras, f = frutas, p = panificação):
         print("sua ordem de compras é: " + ordem )
     
 corrigir(resposta,verduras,frutas,panificação)
+
+def test (new):
+    print(new)

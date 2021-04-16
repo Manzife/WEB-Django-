@@ -31,22 +31,8 @@ elif item in lista_panificação:
 
 resposta = list(input("digite sim para confirmar ou digite não para trocar o item, \n se for mais de um item coloque no formato 'banana, 'abacate' : "))
 
-#função que vai ordernar as frutas pedidas
-
-                
-def ordenar(v = verduras,f = frutas, p =  panificação):
-    global ordem
-    ordem = v + f + p 
+#função que vai ordernar as frutas pedidas 
         
-
-def sua_lista(ordem):
-    ordenar(verduras,frutas,panificação)
-    print("você tem em sua lista de compras: " "\n" + "frutas" + frutas + "\n" + "verduras" + "verduras na seguinte oredem ideal" + ordem )
-    global resposta
-    resposta = input("digite sim para confirmar ou digite não para trocar o item, \n se for mais de um item coloque no formato 'banana, 'abacate' : ")
-    print(resposta)
-
-
 def corrigir(r = resposta, v = verduras, f = frutas, p = panificação):
     
     if resposta != "sim":
